@@ -15,7 +15,7 @@
             <nav>
                 <ul>
                     @foreach ( $menus as $menu )
-                        <li><a href="...">{{ strtoupper($menu) }}</a></li>                        
+                        <li><a href="{{route($menu)}}">{{ strtoupper($menu) }}</a></li>                        
                     @endforeach
                 </ul>
             </nav>
