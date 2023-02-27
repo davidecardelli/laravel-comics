@@ -20,6 +20,7 @@
 
 <body>
     @include('includes.header')
+    @include('includes.jumbotron')
     @yield('content')
     @include('includes.footer')
 </body>
